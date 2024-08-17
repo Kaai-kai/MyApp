@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import HelloComponent from './Components/HelloComponent.js';
+import App from './App.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HelloComponent />
+  <App />
 );
 
 // If you want to start measuring performance in your app, pass a function
